@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title> Having fun with HTML and Github </title>
+    <style>
+      h1 {
+        color: maroon;
+        background-color: mistyRose;
+        border: 1px floralWhite;
+      }
+      h2 {
+        color: mediumOrchid;
+      }
+      li {
+        text-decoration: underline;
+      }
+      figcaption {
+        color: darkOliveGreen;
+        background-color: lightYellow;
+      }
+    </style>
+  </head>
+  <body>
+    <div align="center">
+      <h1> What is HTML? </h1>
+      <figure>
+        <img src="http://www.decalserpent.com/assets/images/decals%201-500/SP-00477-black.jpg" alt="Doesn't seem quite right, does it?" width="400" height="300">
+        <figcaption> <font size="4"><b>Doesn't seem quite right, does it?</b> </font> </figcaption>
+      </figure>
+
+    </div>
+    <div style="text-indent:20px">
+      <h2> So what is it exactly? </h2>
+      <p> HTML: </p>
+      <ul>
+        <li> stands for <b>H</b>yper <b>T</b>ext <b>M</b>arkup <b>L</b>anguage </li>
+        <li> is the <b>standard markup</b> language for Web pages </li>
+        <li> <b>elements</b> are the building blocks of HTML pages </li>
+        <li> elements are represented by <b>< > tags</b> </li>
+      </ul>
+      <p> Want to learn more about HTML? </p>
+      </div>
+      <div style="text-indent:20px"><a href="https://developer.mozilla.org/en-US/docs/Learn">Mozilla Web Design</a></div>
+
+      <p></p>
+    <div style="text-indent:20px">
+    <label for="html">Select how much you enjoy HTML: </label>
+      <select id="html">
+        <option value="">--Choose--</option>
+        <option value="love">I love it!</option>
+        <option value="kinda">I think it's alright.</option>
+        <option value="no">I don't really enjoy it.</option>
+        <option value="hate">No clue what's going on</option>
+      </select>
+    </div>
+    <p></p>
+    <div style="text-indent:20px"><button></button></div>
+    <script>
+    var select = document.querySelector('select');
+    var para = document.querySelector('button');
+
+    select.addEventListener('change', setHtml);
+    select.onchange = setHtml;
+    function setHtml() {
+      var choice = select.value;
+      if (choice === 'love') {
+        para.textContent = 'That is awesome! You should totally take an extra course!';
+      } else if (choice === 'kinda') {
+        para.textContent = 'That is a good start!';
+      } else if (choice === 'no') {
+        para.textContent = 'That is alright, keep up the work and you will get there!';
+      } else if (choice === 'hate') {
+        para.textContent = 'Well, thats okay, it is not for everyone :)'
+      } else {
+        para.textContent = '';
+      }
+    }
+    </script>
+  </body>
+</html>
