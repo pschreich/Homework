@@ -8,4 +8,4 @@ Our very own homework webpage.
 
 [This is our first homework:](https://github.com/pschreich/Homework/blob/master/Website_Homework.htm)
 
-[This is our second homework:](https://github.com/pschreich/Homework/blob/master/XPLab_2019_HW2.html)
+[This is our second homework:](https://htmlpreview.github.io/?https://github.com/pschreich/Homework/blob/master/XPLab_2019_HW2.html)
