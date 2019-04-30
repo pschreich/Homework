@@ -6,4 +6,4 @@ Hello!
 These are the homework projects of Pauline and Susanne.
 Our very own homework webpage.
 
-[This is the second homework](https://XPLab_2019_HW2.html)
+[This is our second homework](https://rawgit.com/pschreich/Homework/blob/master/XPLab_2019_HW2.html)
