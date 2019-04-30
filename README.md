@@ -6,4 +6,4 @@ Hello!
 These are the homework projects of Pauline and Susanne.
 Our very own homework webpage.
 
-[Here] (https://github.com/pschreich/Homework/blob/master/XPLab_2019_HW2.html) is the link
+[Here is a link](https://github.com/pschreich/Homework/blob/master/XPLab_2019_HW2.html)
